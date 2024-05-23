@@ -9,7 +9,8 @@ int main(){
         scanf("%d", &a[i]);        
     }
 
-    int max1 = -1e9, max2 = -1e9;
+    int max1 = -1e9;
+    int max2 = -1e9;
     for(int i = 0; i < n; i++){
         if(a[i] > max1){
             max2 = max1;
